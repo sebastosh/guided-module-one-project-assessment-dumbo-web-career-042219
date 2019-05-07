@@ -16,7 +16,7 @@ Writer
 * As a writer, I want to be able to delete my application. (**Delete**)
 
 Open Call
-* An open call, has a theme and a deadline. (**Create**)
+* An open call, has a title and a theme. (**Create**)
 * As an open call, I want to be able to view all the submitted applications by writers. (**Read**)
 * As an open call, I want to randomly select a winning submission(too cheap to pay a jury!).  (**Update**)
 * As an open call, I am active until I select a winner, then I am closed. (**Update**)
