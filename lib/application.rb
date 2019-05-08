@@ -1,12 +1,18 @@
 class Application < ActiveRecord::Base
-  belongs_to :writers
-  belongs_to :calls
+  belongs_to :writer
+  belongs_to :call
 
-  # def initialize(title, work, writers_id, calls_id)
+  # attr_reader :application, :call
+
+  # def initialize(title, body, writers_id, calls_id)
   #   @title = title
-  #   @work = work
+  #   @body = body
   #   @writers_id = writers_id
   #   @calls_id = calls_id
   # end
+
+  def writer_name
+    self.writer.name
+  end
 
 end

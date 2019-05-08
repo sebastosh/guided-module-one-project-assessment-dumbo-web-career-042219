@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2019_05_06_172106) do
 
   create_table "applications", force: :cascade do |t|
     t.string "title"
-    t.text "work"
+    t.text "body"
     t.integer "writer_id"
     t.integer "call_id"
   end
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 2019_05_06_172106) do
   create_table "calls", force: :cascade do |t|
     t.string "title"
     t.string "theme"
+    t.integer "finalist_id"
+    t.boolean "open", default: true
   end
 
   create_table "writers", force: :cascade do |t|
