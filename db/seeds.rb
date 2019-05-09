@@ -9,7 +9,7 @@ Call.create(title: "Regulation Nation", theme: "Society")
 Call.create(title: "The Otter Truth", theme: "Nature")
 
 
-Application.create(title: "Test Peom", body: "Today a poem tomorrow a haiku", writer_id: 1, call_id: 1)
+Application.create(body: "Today a poem tomorrow a haiku", writer_id: 1, call_id: 1)
 Application.create(title: "Trouble Everyday", body: "Words reach you while your thoughts travelh through time.", writer_id: 2, call_id: 1)
 Application.create(title: "Pizza Rat", body: "A rat, a pizza slice, stairs... life.", writer_id: 3, call_id: 1)
 Application.create(title: "Snow is blind", body: "When snow comes, knows not where it goes", writer_id: 4, call_id: 1)
